@@ -6,9 +6,8 @@
         <field id="tpd3" name="Name" width="166" order="0"/>
         <field id="tpd4" name="Begin date" width="64" order="1"/>
         <field id="tpd5" name="End date" width="64" order="2"/>
-        <option id="taskLabelLeft" value="name"/>
         <timeline>
-            <![CDATA[4,2,67,24,77,59,26,6,0]]>
+            <![CDATA[4,26,0,6,59,67,24,77,2]]>
         </timeline>
         <option id="color.recent">
             <![CDATA[#6666ff #ff9933 #ff3333 #cc99ff #99ff99 #ff9999]]>
@@ -104,6 +103,7 @@
             <depend id="6" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="6" name="CDR Presentation" color="#ff3333" meeting="true" start="2020-11-27" duration="0" complete="0" thirdDate="2020-10-08" thirdDate-constraint="0" expand="true"/>
+        <task id="94" name="test" meeting="false" start="2020-09-24" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
