@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Margin Test" company="" webLink="http://" view-date="2021-01-24" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="en_US">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+        <option id="taskLabelLeft" value="name"/>
+        <timeline>
+            <![CDATA[67,77,59,24,0,2,193,26,4]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#ff3333 #ff9933 #ffffff #00cc00 #3333ff #00cccc #990099 #cccc00 #ff6666 #ccffff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="16" name="Example Task Umbrella" color="#3333ff" meeting="false" start="2021-02-01" duration="10" complete="0" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Example task 1" color="#3333ff" meeting="false" start="2021-02-01" duration="5" complete="0" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" name="Task 1 Margin" color="#3333ff" meeting="false" start="2021-02-08" duration="5" complete="0" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" name="Task 1 deadline" color="#ff3333" meeting="true" start="2021-02-15" duration="0" complete="0" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="19" name="spacer" meeting="false" start="2021-01-25" duration="1" complete="0" expand="true"/>
+        <task id="20" name="spacer" meeting="false" start="2021-01-25" duration="1" complete="0" expand="true"/>
+        <task id="21" name="Example Task Umbrella" color="#00cc00" meeting="false" start="2021-02-01" duration="10" complete="0" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true">
+            <task id="24" name="Example Task 2" color="#00cc00" meeting="false" start="2021-02-01" duration="5" complete="0" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" name="Task 2 Margin" color="#ffffff" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2021-02-08" duration="5" complete="0" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true">
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="28" name="Task 2 deadline" color="#ff3333" meeting="true" start="2021-02-15" duration="0" complete="0" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="32" name="spacer" meeting="false" start="2021-01-25" duration="1" complete="0" expand="true"/>
+        <task id="33" name="spacer" meeting="false" start="2021-01-25" duration="1" complete="0" expand="true"/>
+        <task id="34" name="Example Task Umbrella" color="#ff9933" meeting="false" start="2021-02-01" duration="10" complete="46" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true">
+            <task id="36" name="Example Task 3" color="#ff9933" meeting="false" start="2021-02-01" duration="10" complete="51" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="39" name="Task 3 deadline" color="#ff3333" meeting="true" start="2021-02-15" duration="0" complete="0" thirdDate="2021-01-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
