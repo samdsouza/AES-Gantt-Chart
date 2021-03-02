@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-01-24" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-01-31" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="en_US">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Name" width="158" order="0"/>
@@ -47,13 +47,17 @@
             <task id="74" name="Manufacture Pseudolite Housing" color="#ff99ff" meeting="false" start="2021-03-03" duration="10" complete="10" thirdDate="2020-12-21" thirdDate-constraint="0" expand="true">
                 <depend id="75" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="75" name="Housing Manufactured" color="#ff99ff" meeting="true" start="2021-03-13" duration="0" complete="0" thirdDate="2020-12-21" thirdDate-constraint="0" expand="true"/>
+            <task id="75" name="Housing Manufactured" color="#ff99ff" meeting="true" start="2021-03-13" duration="0" complete="0" thirdDate="2020-12-21" thirdDate-constraint="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Rubber"/>
+            </task>
         </task>
         <task id="70" name="Testing" color="#66ff66" meeting="false" start="2021-02-03" duration="63" complete="42" thirdDate="2020-12-01" thirdDate-constraint="0" expand="true">
             <task id="2" name="SDR Transmit/Receive Test" color="#ffcc99" meeting="false" start="2021-02-08" duration="15" complete="100" thirdDate="2021-02-21" thirdDate-constraint="0" expand="true">
                 <depend id="89" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="89" name="SDR Transmit/Receive Completed" color="#ff9966" meeting="true" start="2021-02-23" duration="0" complete="0" thirdDate="2021-01-24" thirdDate-constraint="0" expand="true"/>
+            <task id="89" name="SDR Transmit/Receive Completed" color="#ff9966" meeting="true" start="2021-02-23" duration="0" complete="0" thirdDate="2021-01-24" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Rubber"/>
+            </task>
             <task id="71" name="Tracking Research" color="#99ccff" meeting="false" start="2021-02-03" duration="14" complete="100" thirdDate="2020-12-21" thirdDate-constraint="0" expand="true">
                 <depend id="90" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -149,7 +153,9 @@
         <task id="77" name="Alex Understand Least Squares" color="#ff99ff" meeting="true" start="2021-02-17" duration="0" complete="0" thirdDate="2020-12-14" thirdDate-constraint="0" expand="true">
             <depend id="78" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="78" name="Work on Positioning Test" color="#ff99ff" meeting="false" start="2021-02-17" duration="21" complete="0" thirdDate="2020-09-01" thirdDate-constraint="0" expand="true"/>
+        <task id="78" name="Work on Positioning Test" color="#ff99ff" meeting="false" start="2021-02-17" duration="21" complete="0" thirdDate="2020-09-01" thirdDate-constraint="0" expand="true">
+            <depend id="37" type="2" difference="0" hardness="Rubber"/>
+        </task>
         <task id="1" name="AIAA Work" color="#9999ff" meeting="false" start="2021-01-25" duration="68" complete="21" thirdDate="2020-10-19" thirdDate-constraint="0" expand="true">
             <task id="3" name="Work on Abstract draft" color="#9999ff" meeting="false" start="2021-01-25" duration="9" complete="0" thirdDate="2020-10-19" thirdDate-constraint="0" expand="true">
                 <depend id="5" type="2" difference="0" hardness="Strong"/>
@@ -163,20 +169,22 @@
             <task id="45" name="AIAA Abstract due to Morton" color="#ff3333" meeting="true" start="2021-02-08" duration="0" complete="0" thirdDate="2020-10-19" thirdDate-constraint="0" expand="true">
                 <depend id="11" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="11" name="Work on AIAA Manuscript draft" color="#9999ff" meeting="false" start="2021-02-08" duration="20" complete="28" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
+            <task id="11" name="Work on AIAA Manuscript draft" color="#9999ff" meeting="false" start="2021-02-08" duration="33" complete="28" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
                 <depend id="13" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="13" name="Manuscript due to Canvas" color="#ff3333" meeting="true" start="2021-02-28" duration="0" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Manuscript due to Canvas" color="#ff3333" meeting="true" start="2021-03-13" duration="0" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
                 <depend id="46" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="46" name="Revise AIAA Manuscript" color="#9999ff" meeting="false" start="2021-02-28" duration="5" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
+            <task id="46" name="Revise AIAA Manuscript" color="#9999ff" meeting="false" start="2021-03-13" duration="7" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
                 <depend id="47" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="47" name="Manuscript due to AIAA" color="#ff3333" meeting="true" start="2021-03-05" duration="0" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
-            <task id="48" name="Register for AIAA" color="#9999ff" meeting="false" start="2021-01-25" duration="48" complete="20" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
+            <task id="47" name="Manuscript due to AIAA" color="#ff3333" meeting="true" start="2021-03-20" duration="0" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
+            <task id="48" name="Register for AIAA" color="#9999ff" meeting="false" start="2021-01-25" duration="66" complete="20" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
                 <depend id="21" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="21" name="AIAA Registration Closes" color="#ff3333" meeting="true" start="2021-03-14" duration="0" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="AIAA Registration Closes" color="#ff3333" meeting="true" start="2021-04-01" duration="0" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="49" type="2" difference="0" hardness="Rubber"/>
+            </task>
             <task id="49" name="AIAA Student Conference" color="#9999ff" meeting="false" start="2021-04-02" duration="1" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="25" name="Work on Spring Final Review Slides" color="#ff6666" meeting="false" start="2021-04-05" duration="10" complete="0" thirdDate="2020-09-01" thirdDate-constraint="0" expand="true">
